@@ -56,7 +56,7 @@ class RestServer():
         self._stopped = threading.Event()
         self._stopped.clear()
         self._rest_host = ''
-        self._rest_port = '80'
+        self._rest_port = '10000'
         self._remote_host = '192.168.0.100'
         self._app = Bottle()
         self._is_connected = False
