@@ -1,2 +1,3 @@
 apt-get install libboost-python-dev
-gunicorn --bind=0.0.0.0 --workers=4 --timeout 30 demoApp:app
+sleep 1m
+gunicorn --bind=0.0.0.0 --workers=4 --timeout 180 demoApp:app
